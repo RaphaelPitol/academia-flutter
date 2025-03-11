@@ -16,7 +16,7 @@ void main() {
     print(onValue);
   }).catchError((onError) {
     print(onError);
-  }).whenComplete(() => {print('Finalizando')});
+  }).whenComplete(() {print('Finalizando');});
 
   print('Saindo da Mecanica');
 }
